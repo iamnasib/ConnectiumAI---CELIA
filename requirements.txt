@@ -1,0 +1,26 @@
+# requirements.txt
+# Install with: pip install -r requirements.txt
+
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Pipecat and dependencies
+pipecat-ai==0.0.99
+daily-python==0.23.0
+pipecat-ai[silero]
+# pipecat-ai[local-smart-turn-v3]
+
+# AI Services
+openai
+#anthropic==0.18.1  # If using Claude instead of OpenAI
+
+# Speech Services
+# deepgram-sdk==3.2.0
+# cartesia==1.0.0
+# elevenlabs==0.2.27  # Alternative TTS option
+
+# Voice Activity Detection
+# torch
+# torchaudio
+

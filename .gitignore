@@ -1,0 +1,8 @@
+/.dockerignore
+/.env
+/.venv
+/docker-compose.yaml
+/Dockerfile
+/logs
+/re.txt
+/requirementss.txt
