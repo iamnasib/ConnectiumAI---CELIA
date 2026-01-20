@@ -377,5 +377,7 @@ async def start_interview(request:InterviewRequest,background_tasks:BackgroundTa
 
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.getenv("PORT", 8080))
+    port = int(os.getenv("PORT", 7860))
+    logger.info(f"Starting server on port {port}")  # Add this line
+    logger.info(f"PORT environment variable: {os.getenv('PORT')}")  # Add this line
     uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
