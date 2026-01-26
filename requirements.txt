@@ -4,15 +4,15 @@
 fastapi
 uvicorn[standard]
 python-dotenv
-
+openai
 # Pipecat and dependencies
-pipecat-ai==0.0.99
-daily-python==0.23.0
+pipecat-ai==0.0.100
 pipecat-ai[silero]
-# pipecat-ai[local-smart-turn-v3]
+daily-python==0.23.0
+
 
 # AI Services
-openai
+
 #anthropic==0.18.1  # If using Claude instead of OpenAI
 
 # Speech Services
